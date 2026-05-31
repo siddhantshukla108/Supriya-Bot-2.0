@@ -1,0 +1,17 @@
+{
+  "name": "supriya-bot",
+  "version": "1.0.0",
+  "main": "ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.6.0",
+    "readline-sync": "^1.4.10"
+  }
+}

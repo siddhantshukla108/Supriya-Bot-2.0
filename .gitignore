@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Private config (contains API keys)
+config.js
+
+# Old Gemini script (contains hardcoded API key)
+ex.js
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
