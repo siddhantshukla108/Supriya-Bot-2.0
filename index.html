@@ -24,15 +24,20 @@
     
     <div class="chat-container">
         <div class="chat-header">
-            <div class="profile-pic">
-                <i class="fas fa-heart"></i>
-            </div>
-            <div class="header-content">
-                <h1>Supriya Bot 💔<span class="heart-pulse">❤️</span></h1>
-                <div class="status">
+            <div class="header-left">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Supriya&background=ff4d94&color=fff&rounded=true&bold=true" alt="Supriya">
                     <span class="status-dot"></span>
-                    Online...
                 </div>
+                <div class="header-content">
+                    <h1>Supriya Bot 💔<span class="heart-pulse">❤️</span></h1>
+                    <div class="status">Online...</div>
+                </div>
+            </div>
+            <div class="header-actions">
+                <i class="fas fa-video"></i>
+                <i class="fas fa-phone"></i>
+                <i class="fas fa-ellipsis-v"></i>
             </div>
         </div>
         
@@ -50,10 +55,14 @@
         </div>
         
         <div class="chat-input-area">
-            <input type="text" id="userInput" placeholder="Message Supriya...">
-            <button id="sendButton">
-                <i class="fas fa-paper-plane"></i>
-            </button>
+            <div class="input-wrapper">
+                <button class="icon-btn emoji-btn"><i class="fas fa-smile"></i></button>
+                <input type="text" id="userInput" placeholder="Message Supriya...">
+                <button class="icon-btn attachment-btn"><i class="fas fa-paperclip"></i></button>
+                <button id="sendButton">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
         </div>
     </div>
 
